@@ -54,4 +54,16 @@ This is a custom component that adds Signal Messenger Notifications to HomeAssis
 # Testing
 After we've setup everything, let's test if we can send a message via Home Assistant. 
 
+* Open the services tab in your Home Assistant instance
+
+  <img src="https://raw.githubusercontent.com/bbernhard/signal-homeassistant/master/doc/images/homeassistant_testing_services.png" width="200">
+  
+* Select `notify.signal` as service type and add a message. After clicking the `CALL SERVICE` Button, you should receive the signal message within a few seconds. 
+
+  <img src="https://raw.githubusercontent.com/bbernhard/signal-homeassistant/master/doc/images/homeassistant_testing_call_service.png" width="200">
+
+* In case you want to add an attachment to your signal message, specify the `filename`
+
+
+  <img src="https://raw.githubusercontent.com/bbernhard/signal-homeassistant/master/doc/images/homeassistant_testing_call_service_2.png" width="200">
 
