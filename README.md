@@ -1,3 +1,10 @@
+
+# :warning: DEPRECATED!
+
+Since Home Assistant 0.104 the Signal Messenger integration is now part of Home Assistant - i.e this custom component isn't needed anymore. If you are using this custom component, please migrate to the official integration. This component will not be maintained anymore.  
+
+
+
 # Signal Notifications for HomeAssistant
 
 This is a custom component that adds Signal Messenger Notifications to HomeAssistant. 
